@@ -18,10 +18,10 @@ Non-IP frames (ARP, etc.) are ignored.
 Use the command `arm-linux-gnueabi-gcc -O2 -static -o sniffer_raw sniffer_raw.c` if you need to recompile your version or use the ARM v7 compatble binary provided.
 
 ## Usage:
-Capy on your SoC, change the permission and specify the interface:
+Copy on your SoC, change the permission and specify the interface:
 ```
 chmod +x ./sniffer_raw
 ./sniffer_raw wlan0
 ```
 
-Or use it with `sniffer.sh` which is a top 20 destination IP helper, easy to understand and modify.
+Or use it with `sniff.sh` which is a top 20 destination IP helper, easy to understand and modify.
